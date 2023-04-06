@@ -1,0 +1,36 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.10.4",
+    "heartbeatAt": "2023-04-06T18:03:58.364360",
+    "startedAt": "2023-04-06T18:03:57.515351",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/isaac/Documents/py-notes/code_with_notes/hello_wandb/train.py",
+    "codePath": "train.py",
+    "host": "Isaacs-MacBook-Air.local",
+    "username": "isaac",
+    "executable": "/Users/isaac/py-envs/DL/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 8.330223083496094
+    },
+    "memory": {
+        "total": 24.0
+    }
+}
