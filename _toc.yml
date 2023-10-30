@@ -1,6 +1,9 @@
 format: jb-book
 root: intro
 chapters:
-- file: decorators/index
+- file: fundamentals/index
   sections:
-  - file: decorators/property
+  - file: fundamentals/custom-generators
+- file: data-models/index
+  sections:
+  - file: data-models/pydantic
