@@ -2692,6 +2692,28 @@ rtd = ["myst-parser", "sphinx (>=3.0)", "sphinx-book-theme"]
 testing = ["coverage (<5.0)", "jupyter-book", "pytest (>=5.4,<6.0)", "pytest-cov (>=2.8,<3.0)", "pytest-regressions"]
 
 [[package]]
+name = "sphinx-proof"
+version = "0.1.3"
+description = "A Sphinx extension for producing proofs, theorems, axioms, etc."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "sphinx-proof-0.1.3.tar.gz", hash = "sha256:db938da1ea18880f80f0e979cb895604a490beff3e8f3dd1945d4997451b373b"},
+    {file = "sphinx_proof-0.1.3-py3-none-any.whl", hash = "sha256:3ee5286ebba694037170529fa92795873458a8b25a5f67fdf32aff5de506b2d6"},
+]
+
+[package.dependencies]
+docutils = ">=0.15"
+sphinx = "*"
+sphinx-book-theme = "*"
+
+[package.extras]
+all = ["beautifulsoup4", "black", "coverage", "flake8 (>=3.7.0,<3.8.0)", "myst-parser", "pre-commit (==1.17.0)", "pytest (>=3.6,<4)", "pytest-cov", "pytest-regressions", "sphinx (>=3.0)", "sphinx-book-theme", "sphinx-togglebutton", "sphinxcontrib-bibtex", "texsoup"]
+code-style = ["black", "flake8 (>=3.7.0,<3.8.0)", "pre-commit (==1.17.0)"]
+rtd = ["myst-parser", "sphinx (>=3.0)", "sphinx-book-theme", "sphinx-togglebutton", "sphinxcontrib-bibtex"]
+testing = ["beautifulsoup4", "coverage", "myst-parser", "pytest (>=3.6,<4)", "pytest-cov", "pytest-regressions", "texsoup"]
+
+[[package]]
 name = "sphinx-thebe"
 version = "0.2.1"
 description = "Integrate interactive code blocks into your documentation with Thebe and Binder."
@@ -3195,4 +3217,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.13"
-content-hash = "13809b016d9e53616d18538927def6bea84c9c1c1390372039cc362f06d922dd"
+content-hash = "65c40db6ca68fe2d317c077e1a85be99d7a5f1c5864a7871240f62aebb9dd7a8"
