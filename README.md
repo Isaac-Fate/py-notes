@@ -1,3 +1,3 @@
 # Python Notebook
 
-Read the book 👉 [here]().
+Read my book 👉 [here](https://isaac-fate.github.io/py-notes/intro.html).

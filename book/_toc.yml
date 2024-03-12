@@ -1,9 +1,13 @@
 format: jb-book
 root: intro
 chapters:
-- file: fundamentals/index
-  sections:
-  - file: fundamentals/custom-generators
-- file: data-models/index
-  sections:
-  - file: data-models/pydantic
+  - file: fundamentals/index
+    sections:
+      - file: fundamentals/custom-generators
+  - file: data-models/index
+    sections:
+      - file: data-models/pydantic
+  - file: structured-data-files/index
+    sections:
+      - file: structured-data-files/temporary-files
+      - file: structured-data-files/csv
