@@ -17,6 +17,8 @@ fastapi = "^0.104.1"
 uvicorn = {extras = ["standard"], version = "^0.23.2"}
 python-multipart = "^0.0.6"
 pydantic-settings = "^2.1.0"
+ultralytics = "^8.1.29"
+opencv-python = "^4.9.0.80"
 
 
 [tool.poetry.group.dev.dependencies]

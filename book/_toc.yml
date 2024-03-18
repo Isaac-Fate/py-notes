@@ -1,13 +1,20 @@
 format: jb-book
 root: intro
-chapters:
-  - file: fundamentals/index
-    sections:
-      - file: fundamentals/custom-generators
-  - file: data-models/index
-    sections:
-      - file: data-models/pydantic
-  - file: structured-data-files/index
-    sections:
-      - file: structured-data-files/temporary-files
-      - file: structured-data-files/csv
+parts:
+  - caption: Python Skills
+    chapters:
+      - file: fundamentals/index
+        sections:
+          - file: fundamentals/custom-generators
+      - file: data-models/index
+        sections:
+          - file: data-models/pydantic
+      - file: structured-data-files/index
+        sections:
+          - file: structured-data-files/temporary-files
+          - file: structured-data-files/csv
+  - caption: Deep Learning
+    chapters:
+      - file: yolov8/index
+        sections:
+          - file: yolov8/pose-estimation

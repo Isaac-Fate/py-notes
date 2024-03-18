@@ -1,7 +1,7 @@
 # Mac OS
 **/.DS_Store
 
-# auxiliary files when compiling LaTeX 
+# Auxiliary files when compiling LaTeX
 tex/*.aux
 tex/*.bbl
 tex/*.bcf
@@ -23,10 +23,13 @@ tex/*.ilg
 # Jupyter Notebook
 **/.ipynb_checkpoints
 
-# playground
+# PyTorch checkpoints
+**/*.pt
+
+# Playground
 /playground
 
-# data directories
+# Data directories
 **/data
 
 # Built Jupyter book files
